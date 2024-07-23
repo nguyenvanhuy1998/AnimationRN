@@ -1,15 +1,10 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react-native/no-inline-styles */
-import React from 'react';
-import MomoHeader from './src/screens/MomoHeader';
+
+import MainStackNavigator from './src/animations/MainStackNavigator';
 
 const App = () => {
-  return (
-    <>
-      {/* Minh techie */}
-      {/* <TutorialAnimation /> */}
-      <MomoHeader />
-    </>
-  );
+  return <MainStackNavigator />;
 };
 
 export default App;

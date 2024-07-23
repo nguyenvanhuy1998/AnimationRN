@@ -2,7 +2,7 @@
 import React, {useEffect, useRef} from 'react';
 import {Animated} from 'react-native';
 
-const TutorialAnimation = () => {
+const AnimationBasic = () => {
   // Hướng dẫn animation của Minh Techie
   // https://www.youtube.com/channel/UCGxA-PuYBXinpwGawUqEYpg
   // 1.Hướng dẫn Animated - React Native Animations
@@ -132,4 +132,4 @@ const TutorialAnimation = () => {
   );
 };
 
-export default TutorialAnimation;
+export default AnimationBasic;
